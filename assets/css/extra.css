@@ -1,0 +1,35 @@
+.profile {
+  width: 450px;
+  margin-left: 20px;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 426px;
+}
+
+.about-content > div > p > a > img {
+  width: 15px;
+  height: 15px;
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-content > div > p:last-of-type {
+  text-align: center;
+  text-decoration: none;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos > img {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
